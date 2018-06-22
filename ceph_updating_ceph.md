@@ -72,27 +72,7 @@ It will take some time but all data is up and accessable during update. For deta
 Verify you are running the new version with the following command:
 
     ceph versions
- 1. ---------
-    {
-    "mon": {
-        "ceph version 13.2.0 (79a10589f1f80dfe21e8f9794365ed98143071c4) mimic (stable)": 3
-    },
-    "mgr": {
-        "ceph version 13.2.0 (79a10589f1f80dfe21e8f9794365ed98143071c4) mimic (stable)": 3
-    },
-    "osd": {
-        "ceph version 13.2.0 (79a10589f1f80dfe21e8f9794365ed98143071c4) mimic (stable)": 44
-    },
-    "mds": {
-        "ceph version 13.2.0 (79a10589f1f80dfe21e8f9794365ed98143071c4) mimic (stable)": 3
-    },
-    "rgw": {
-        "ceph version 13.2.0 (79a10589f1f80dfe21e8f9794365ed98143071c4) mimic (stable)": 1
-    },
-    "overall": {
-        "ceph version 13.2.0 (79a10589f1f80dfe21e8f9794365ed98143071c4) mimic (stable)": 54
-    }
-    }
+
 
 
 
