@@ -74,18 +74,18 @@ Create a text file, move it onto the cluster, map out which OSD the chunks live 
     Run "ceph osd tree" to see where each OSD is located in which chassis. 
 
     ID CLASS WEIGHT  TYPE NAME         STATUS REWEIGHT PRI-AFF 
- 1. 1       0.58429 root default                              
- 2. 3       0.19476     host cephosd1                           
+    1       0.58429 root default                              
+    3       0.19476     host cephosd1                           
     0   hdd 0.04869         osd.0         up  1.00000 1.00000 
     3   hdd 0.04869         osd.3         up  1.00000 1.00000 
     6   hdd 0.04869         osd.6         up  1.00000 1.00000 
     9   hdd 0.04869         osd.9         up  1.00000 1.00000 
- 3. 5       0.19476     host cephosd2                         
+    5       0.19476     host cephosd2                         
     1   hdd 0.04869         osd.1         up  1.00000 1.00000 
     4   hdd 0.04869         osd.4         up  1.00000 1.00000 
     7   hdd 0.04869         osd.7         up  1.00000 1.00000 
     11   hdd 0.04869         osd.11        up  1.00000 1.00000 
- 4. 7       0.19476     host cephosd3                         
+    7       0.19476     host cephosd3                         
     2   hdd 0.04869         osd.2         up  1.00000 1.00000 
     5   hdd 0.04869         osd.5         up  1.00000 1.00000 
     8   hdd 0.04869         osd.8         up  1.00000 1.00000 
